@@ -11,7 +11,6 @@ code_files:
 - {name: View/ViewInput.swift,  path: Code/View/view_input.swift.liquid}
 - {name: View/ViewOutput.swift, path: Code/View/view_output.swift.liquid}
 - {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
-- {name: View/ViewController.xib, path: Code/View/viewcontroller.xib.liquid}
 
 # Presenter layer
 - {name: Presenter/ModuleInput.swift, path: Code/Presenter/module_input.swift.liquid}
@@ -28,7 +27,6 @@ code_files:
 
 # Configurator
 - {name: Configurator/Configurator.swift, path: Code/Configurator/configurator.swift.liquid}
-- {name: Configurator/Initializer.swift, path: Code/Configurator/initializer.swift.liquid}
 
 
 # The declarations for test files
