@@ -21,8 +21,8 @@ code_files:
 - {name: Interactor/InteractorOutput.swift, path: Code/Interactor/interactor_output.swift.liquid}
 - {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
 
-# Router layer
-- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+# Builder layer
+- {name: Builder/Builder.swift, path: Code/Builder/builder.swift.liquid}
 
 # Configurator
 - {name: Configurator/Configurator.swift, path: Code/Configurator/configurator.swift.liquid}
@@ -43,8 +43,8 @@ test_files:
 # Presenter tests
 - {name: Presenter/PresenterTests.swift, path: Tests/Presenter/presenter_tests.swift.liquid}
 
-# Router tests
-- {name: Router/RouterTests.swift, path: Tests/Router/router_tests.swift.liquid}
+# Builder tests
+- {name: Builder/BuilderTests.swift, path: Tests/Builder/builder_tests.swift.liquid}
 
 # Template dependencies
 dependencies:

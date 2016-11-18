@@ -15,7 +15,7 @@ class {{ module_info.name }}ViewController: UIViewController, {{module_info.name
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-	assert(self.output != nil, "you must create new scene instance with it's router methods")
+        assert(self.output != nil, "you must create new scene instance with it's router methods")
 	
         output.viewIsReady()
     }

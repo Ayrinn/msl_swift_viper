@@ -1,0 +1,20 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Builder {
+
+    class func buildControllerForDefault() -> {{ module_info.name }}ViewController {
+        let controller = {{ module_info.name }}ViewController(nibName: "{{ module_info.name }}ViewController", bundle: nil)
+	
+        let configurator = {{ module_info.name }}ModuleConfigurator()
+        configurator.configureModuleForViewInput(viewInput: controller)
+    	
+        return controller
+    }
+
+}
