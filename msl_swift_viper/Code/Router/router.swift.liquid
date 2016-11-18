@@ -6,6 +6,15 @@
 //  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
 //
 
-class {{ module_info.name }}Router: {{ module_info.name }}RouterInput {
+class {{ module_info.name }}Builder: {
+
+    class func buildControllerForDefault() -> {{ module_info.name }}ViewController {
+	let controller = {{ module_info.name }}ViewController(nibName: "{{ module_info.name }}ViewController", bundle: nil)
+	
+	let configurator = {{ module_info.name }}ModuleConfigurator()
+	configurator.configureModuleForViewInput(viewInput: controller)
+    	
+	return controller
+    }
 
 }
