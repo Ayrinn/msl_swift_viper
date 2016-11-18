@@ -22,7 +22,6 @@ code_files:
 - {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
 
 # Router layer
-- {name: Router/RouterInput.swift, path: Code/Router/router_input.swift.liquid}
 - {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
 
 # Configurator
