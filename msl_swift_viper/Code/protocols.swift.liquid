@@ -1,0 +1,51 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+/*
+ View layer 
+ */
+
+protocol {{ module_info.name }}ViewInput: class {
+
+    /**
+        @author {{ developer.name }}
+        Setup initial state of the view
+    */
+
+    func setupInitialState()
+}
+
+protocol {{ module_info.name }}ViewOutput {
+
+    /**
+        @author {{ developer.name }}
+        Notify presenter that view is ready
+    */
+
+    func viewIsReady()
+}
+
+
+/*
+ Presenter layer 
+ */
+protocol {{ module_info.name }}ModuleInput: class {
+}
+
+
+
+/*
+ Interactor layer 
+ */
+
+protocol {{ module_info.name }}InteractorInput {
+}
+
+protocol {{ module_info.name }}InteractorOutput: class {
+
+}
